@@ -22,6 +22,7 @@ cmcc,rax3000m-emmc)
 	;;
 h3c,nx30pro |\
 *clt,r30b1* |\
+cmcc,xr30 |\
 cmcc,rax3000m)
 	ubootenv_add_uci_config "/dev/mtd2" "0x0" "0x80000" "0x20000" "4"
 	;;
